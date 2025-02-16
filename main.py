@@ -158,7 +158,7 @@ def validate_output(raw_plan):
 
 def enhance_plan_with_tools(validated_plan):
     # Implement tool calling logic
-    pass
+    return validated_plan
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
